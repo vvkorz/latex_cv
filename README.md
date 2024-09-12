@@ -1,10 +1,18 @@
 # Latex templates
 
-A collection of custom latex templates.
+Custom LaTeX template for a CV. 
+
+
+![cv](cv.png)
+
+``` bash
+cd cv
+lualatex -synctex=1 -interaction=nonstopmode latex_cv.tex
+```
 
 ## Authors
 
-* **Vladimir Korzinov** - *Initial work* - [vvkorz](https://github.com/vvkorz)
+- [vvkorz](https://github.com/vvkorz)
 
 ## License
 
